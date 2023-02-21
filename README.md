@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# WINGI Store
+WINGI Store is an e-commerce web application where customers can browse and purchase various products. It allows customers to filter and search for products, view product details, and add products to their cart for checkout.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+1.Users can view a list of available products
+2.Users can search for products by name or category
+3.Users can filter products by price or category
+4.Users can view detailed information about a specific product
+5.Users can add products to their cart and view their cart
+6.Users can place an order and receive an order confirmation
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+### To run the WINGI Store project on your local machine, follow these steps:
 
-### `npm start`
+1.Clone this repository to your local machine
+2.Open a terminal window and navigate to the project directory
+3.Install the dependencies by running npm install
+4.Start the development server by running npm start
+5.Open a web browser and go to `http://localhost:3000/` to view the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+### The WINGI Store project has the following high level architecture:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`index.js`: This is the entry point of the application, where the `ReactDOM.render` method is called to render the App component to the `DOM`.
+`App.js`: This is the main component of the application. It wraps the `BrowserRouter` component from `React Router` and includes the `Layout` component, which contains the `header` and `foote`r of the application, as well as the `Switch` component which is used to define the different routes for the application.
+`components`: This directory contains all the reusable components used in the application, such as Layout, Header, Footer, SearchBar, Filter, ProductList, ProductListItem, ProductDetails, etc.
+data: This directory contains a sample data file with an array of product objects used in the ProductList component.
+`styles`: This directory contains the global CSS file used throughout the application.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### The following dependencies were used in the WINGI Store project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`react and react-dom`: for building the UI components and rendering them to the DOM.
+`react-router-dom`: for handling client-side routing.
+`tailwindCSS`: for using styling app and make it more responsive.
 
-### `npm run eject`
+# Author
+This project was created by [https://github.com/GustaveRw]Jean Marie Gustave MBONYINSHUTI.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Live] `https://wingistoree.netlify.app/`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Demo-Video] 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div style="position: relative; padding-bottom: 56.162246489859605%; height: 0;"><iframe src="https://www.loom.com/embed/4781b904390f4efbbf8e19b68dc59fec" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
